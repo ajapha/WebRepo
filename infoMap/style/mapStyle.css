@@ -1,0 +1,41 @@
+html body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-top: 10px solid darkgrey;
+}
+
+#places {
+    float: left;
+    margin-left: 10px;
+    width: 37%; 
+}
+
+#map-canvas {
+    position: absolute;
+    height: 100%;
+    width: 61%;
+    left: 38%;
+    margin: 0;
+    border-right: 10px solid darkgrey;
+    border-left: 10px solid darkgrey;
+}
+
+#list {
+    float: left;
+    margin-left: 42px;
+    padding-left: 65px;
+    margin-top: 4px;
+}
+
+#accordion {
+    float: left;
+    background-color: darkgrey;
+    color: white;
+}
+
+#top {
+    padding-left: 2px;
+    float: left;
+}
+
